@@ -23,7 +23,9 @@ const Sidebar = ({ registered }) => {
           />
         </div>
       )}
-      <div className="profile mt-[30px] ml-3">
+      {
+        registered && (
+            <div className="profile mt-[30px] ml-3">
         <div className="tp flex flex-col lg:flex-row gap-3 items-center">
           <img src="/pictures/userDemo.svg" alt="user" />
           <div className="flex flex-row gap-2">
@@ -92,6 +94,8 @@ const Sidebar = ({ registered }) => {
           </div>
         </div>
       </div>
+        )
+      }
       <div className="narv mt-[35px] lg:ml-3 flex flex-col items-center lg:items-start gap-6">
         <div className="nav cursor-pointer flex flex-row items-center gap-3">
           <img src="/pictures/home.svg" alt="" />
