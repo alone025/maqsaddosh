@@ -5,6 +5,8 @@ import Otp from "./pages/otp";
 import NavbarBeforeAuth from "./components/navbarBeforeAuth";
 import { useEffect } from "react";
 import FillingForm from "./pages/fillingForm";
+import Home from "./pages/home";
+import HomeRegistered from "./pages/home.registered";
 
 function App() {
 
@@ -22,6 +24,9 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/otp" element={<Otp />} />
         <Route path="/fillingdata" element={<FillingForm />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<HomeRegistered />} />
+
 
       </Routes>
     </Router>

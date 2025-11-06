@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @import "tailwindcss";
 
-
-body{
+body {
   padding: 24px;
 }
-
 
 .font-inter {
   font-family: "Inter", sans-serif;
@@ -23,16 +21,22 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
-
-@media screen and (max-width:768px) {
-  body{
-  padding: 16px;
-}
+.scroll-none{
+  scrollbar-width: 0;
 }
 
-@media screen and (max-width:400px) {
-  body{
-  padding: 10px;
+.scroll-none::-webkit-scrollbar{
+  width: 0;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    padding: 10px;
+  }
 }

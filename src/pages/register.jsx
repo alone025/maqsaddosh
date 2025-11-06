@@ -9,7 +9,7 @@ const Register = () => {
     <div>
       <div className="tope flex flex-row gap-2 items-center mt-[30px] pl-0.5 cursor-pointer">
         <img src="/pictures/arrowLeft.svg" alt="arrow" />
-        <p onClick={()=>navigate(-1)} className="text-sm md:text-[17px] text-black font-inter font-semibold leading-[normal]">
+        <p onClick={()=>navigate('/login')} className="text-sm md:text-[17px] text-black font-inter font-semibold leading-[normal]">
           Назад к входу
         </p>
       </div>

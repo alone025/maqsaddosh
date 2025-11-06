@@ -3,13 +3,14 @@ import { useLocation } from "react-router-dom";
 
 const NavbarBeforeAuth = () => {
   const pathname = useLocation();
+  
   return (
     <div
       className={`${
         pathname.pathname == "/login"
           ? "lg:fixed lg:top-0 justify-around pt-5"
           : "justify-between"
-      } max-lg:bg-white w-full z-11111 flex flex-row items-start`}
+      } max-lg:bg-white w-full z-11111 flex flex-row items-start ${['/login', '/register', '/otp','/fillingdata'].includes(pathname.pathname) ? "":"hidden"}`}
     >
       {pathname.pathname == "/login" ? (
         <div className="max-sm:hidden lft">

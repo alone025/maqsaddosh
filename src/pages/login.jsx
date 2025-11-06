@@ -4,8 +4,8 @@ import Button from "../components/button";
 
 const Login = () => {
   return (
-    <div className="flex gap-13 justify-between">
-      <div className="left pt-20 px-5 sm:px-10 md:px-20 lg:pl-20 lg:max-w-[500px] w-full pb-10">
+    <div className="flex gap-13 justify-between min-h-screen">
+      <div className="left flex flex-col justify-center pt-20 px-5 sm:px-10 md:px-20 lg:pl-20 lg:max-w-[500px] 2xl:max-w-[600px] w-full pb-10">
         <div className="tl mb-[60px]">
           <img src="/logo.svg" alt="" />
         </div>
