@@ -21,7 +21,7 @@ const Register = () => {
           Для регистрации нужно подтвердить номер телефона или электронную
           почту.
         </p>
-        <form action="submit" className="mt-[26px] w-full">
+        <form className="mt-[26px] w-full">
           <Input
             required={true}
             placeholder={"Номер телефона или электронная почта"}

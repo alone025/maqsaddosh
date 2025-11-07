@@ -45,7 +45,7 @@ const RightSide = () => {
       <div className="recs mt-[46px]">
         <Recommandation/>
       </div>
-      <div className="rec2">
+      <div className="rec2 mt-11">
         <RecPeople1/>
       </div>
     </div>

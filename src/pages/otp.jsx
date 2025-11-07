@@ -23,7 +23,7 @@ const Otp = () => {
           SMS-код отправлен на номер +998 *** 44, который вы указали при
           регистрации.
         </p>
-        <form action="submit" className="mt-[26px] w-full">
+        <form  className="mt-[26px] w-full">
           <OtpInput length={6} onChangeOTP={handleOtpChange} />
 
           <p className="text-[13px] mt-7 cursor-pointer hover:underline text-black font-inter font-normal leading-[normal]">

@@ -169,15 +169,15 @@ const RecPeople1 = () => {
         </div>
       </div>
       <div className="fn mt-8 pl-[26px]">
-            <button className="border border-[#817BFF] rounded-[7px] h-7 text-[#817BFF] text-[13px] font-inter font-medium leading-0 px-[9px]">
+            <button className="border cursor-pointer hover:bg-[#817BFF] hover:text-white transition-colors border-[#817BFF] rounded-[7px] h-7 text-[#817BFF] text-[13px] font-inter font-medium leading-0 px-[9px]">
             Посмотреть все рекомендуемые
         </button>
         <div className="lst flex flex-wrap gap-4 mt-12 max-w-[330px]">
-            <p className="text-sm text-black font-inter font-normal leading-[normal]">Цели для вас</p>
-            <p className="text-sm text-black font-inter font-normal leading-[normal]">Посты</p>
-            <p className="text-sm text-black font-inter font-normal leading-[normal]">Челенджы</p>
-            <p className="text-sm text-black font-inter font-normal leading-[normal]">Категории</p>
-            <p className="text-sm text-black font-inter font-normal leading-[normal]">Интерес общество</p>
+            <p className="text-sm text-black font-inter font-normal leading-[normal] cursor-pointer">Цели для вас</p>
+            <p className="text-sm text-black font-inter font-normal leading-[normal] cursor-pointer">Посты</p>
+            <p className="text-sm text-black font-inter font-normal leading-[normal] cursor-pointer">Челенджы</p>
+            <p className="text-sm text-black font-inter font-normal leading-[normal] cursor-pointer">Категории</p>
+            <p className="text-sm text-black font-inter font-normal leading-[normal] cursor-pointer">Интерес общество</p>
         </div>
       </div>
     </div>

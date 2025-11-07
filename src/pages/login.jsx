@@ -16,7 +16,7 @@ const Login = () => {
           <p className="pl-2 mb-10 text-[13px] text-black opacity-40 font-inter font-normal">
             Номер телефона или электронная почта
           </p>
-          <form action="submit">
+          <form >
             <label
               htmlFor="login"
               className="pl-[9px] block mb-3 font-inter font-normal text-[13px] text-black"
